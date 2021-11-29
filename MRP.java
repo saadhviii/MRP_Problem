@@ -2,20 +2,20 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 class InventoryNetOff {
-		public static final String SEATS = "Seats";
-		public static final String FRAMES = "Frames";
-    		private static final String CRANK_SET = "Crank set";
-		private static final String CHAINS = "Chains";
-		private static final String TIRES = "Tires";
-		private static final String WHEELS = "Wheels";
-		private static final String HANDLEBARS = "Handlebars";
-		private static final String BRAKE_SHOES = "Brake Shoes";
-		private static final String LEVERS = "Levers";
-		private static final String BRAKE_CABLES = "Brake Cables";
-		private static final String BRAKE_PADDLES = "Brake Paddles";
-		private static final String BRAKE_SETS = "Brake sets";
-		private static final String PADDLES = "Paddles";
-		private final int NumberOfBicycles=200; //Since the number of bicycles to purchase are fixed
+	public static final String SEATS = "Seats";
+	public static final String FRAMES = "Frames";
+    	private static final String CRANK_SET = "Crank set";
+	private static final String CHAINS = "Chains";
+	private static final String TIRES = "Tires";
+	private static final String WHEELS = "Wheels";
+	private static final String HANDLEBARS = "Handlebars";
+	private static final String BRAKE_SHOES = "Brake Shoes";
+	private static final String LEVERS = "Levers";
+	private static final String BRAKE_CABLES = "Brake Cables";
+	private static final String BRAKE_PADDLES = "Brake Paddles";
+	private static final String BRAKE_SETS = "Brake sets";
+	private static final String PADDLES = "Paddles";
+	private final int NumberOfBicycles=200; //Since the number of bicycles to purchase are fixed
     	private String key=""; //to store the key value of HashMap
     	private int requiredQuantity=0;// to find the required quantity to be purchased
     	HashMap<String, Integer> map = new HashMap<String,Integer>();  // to store the respective values of an inventory item 
