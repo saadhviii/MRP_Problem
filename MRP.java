@@ -4,7 +4,7 @@ import java.util.Iterator;
 class InventoryNetOff {
 		public static final String SEATS = "Seats";
 		public static final String FRAMES = "Frames";
-    	private static final String CRANK_SET = "Crank set";
+    		private static final String CRANK_SET = "Crank set";
 		private static final String CHAINS = "Chains";
 		private static final String TIRES = "Tires";
 		private static final String WHEELS = "Wheels";
